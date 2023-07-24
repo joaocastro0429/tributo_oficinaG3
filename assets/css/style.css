@@ -1,0 +1,61 @@
+.flex-container ul{ 
+    display:flex;
+    justify-content: flex-end;
+    text-decoration:none;
+   
+    padding: 2px;
+    max-width: 1100px;
+}
+header{
+    background-color: white;
+    color: black;
+}
+h2{
+    text-align: center;
+}
+p{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+section{
+    background-color: white;
+    color: black;
+}
+.navbar li{
+  list-style-type:none;
+  margin-right: 10px;
+}
+ul a{
+    text-decoration: none;
+
+}
+
+.imagem{
+    width: 500px;
+    background-color: blueviolet;
+    border: 10px solid black;
+}
+.imagem:hover{
+    border: 10px solid violet;
+    transition: ease-in-out;
+    animation-delay: 2s;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+ul a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+
+}
+
+.active{
+    color: black;
+}
+
+.fotoOficina{
+    width: 400px;
+}
